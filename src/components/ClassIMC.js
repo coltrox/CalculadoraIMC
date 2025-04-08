@@ -3,7 +3,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 const Class = ({ imc }) => {
-  // Verifica a classificação do IMC com base no valor informado
+  // Aqui verifica a classificação do IMC com base no valor informado
   let classificacao = '';
 
   if (imc < 18.5) classificacao = 'Abaixo do peso';

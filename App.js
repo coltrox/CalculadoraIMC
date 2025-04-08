@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import Title from './src/components/Title'; // importa o componente
+import Title from './src/components/TitleIMC'; // importa o componente
 import FormIMC from './src/components/FormIMC';
 
 export default function App() {

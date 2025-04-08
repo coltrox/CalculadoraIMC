@@ -1,22 +1,22 @@
 // FormIMC.js
 import { View, TextInput, Button, StyleSheet } from 'react-native';
-import Result from './Result';
+import Result from './ResultIMC';
 import Class from './ClassIMC';
 import PesoIdeal from './PesoIdealIMC';
 import { useState } from 'react';
 
 const FormIMC = () => {
-  const [peso, setPeso] = useState(''); // Estado para armazenar o peso
-  const [altura, setAltura] = useState(''); // Estado para armazenar a altura
-  const [imc, setImc] = useState(null); // Estado para armazenar o IMC calculado
+  const [peso, setPeso] = useState(''); // armazenar o peso
+  const [altura, setAltura] = useState(''); // armazenar a altura
+  const [imc, setImc] = useState(null); // armazenar o IMC calculado
 
   const calcularIMC = () => {
-    // Converte a altura para metros e o peso para número
+    // Aqui converte a altura para metros e o peso para número
     const alturaMetros = parseFloat(altura) / 100;
     const pesoKg = parseFloat(peso);
-    // Calcula o IMC usando a fórmula: peso / (altura * altura)
+    // calcula o IMC usando a fórmula: peso divididido (altura * altura)
     const resultado = (pesoKg / (alturaMetros * alturaMetros)).toFixed(2);
-    setImc(resultado); // Atualiza o estado com o IMC calculado
+    setImc(resultado); // atualiza com o IMC calculado
   };
 
   return (

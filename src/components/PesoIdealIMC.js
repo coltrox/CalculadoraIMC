@@ -3,9 +3,9 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 const PesoIdeal = ({ altura }) => {
-  // Converte a altura de cm para metros
+  // Aqui converte a altura de centimetross para metros
   const alturaMetros = parseFloat(altura) / 100;
-  // Calcula o peso ideal mínimo e máximo com base na faixa de IMC considerada "normal"
+  // calcula o peso ideal mínimo e máximo com base na faixa de IMC considerada normal
   const pesoMinimo = (18.5 * alturaMetros ** 2).toFixed(1);
   const pesoMaximo = (24.9 * alturaMetros ** 2).toFixed(1);
 
