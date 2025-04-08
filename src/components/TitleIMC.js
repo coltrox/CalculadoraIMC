@@ -1,19 +1,20 @@
+// Title.js
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import Title from './src/components/Title'; // importa o componente
+import { Text, StyleSheet } from 'react-native';
 
-export default function App() {
+const Title = () => {
   return (
-    <View style={styles.container}>
-      <Title />
-    </View>
+    <Text style={styles.title}>Calculadora de IMC</Text>
   );
-}
+};
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    padding: 16,
+  title: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginVertical: 20,
   },
 });
+
+export default Title;
