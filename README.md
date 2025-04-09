@@ -4,7 +4,7 @@ Este projeto é uma aplicação mobile desenvolvida com React Native para calcul
 
 ---
 
-📱 Funcionalidades
+`📱 Funcionalidades`
 - Inserção de peso (em kg) e altura (em cm)
 - Cálculo automático do IMC
 - Exibição do valor do IMC calculado
@@ -13,7 +13,7 @@ Este projeto é uma aplicação mobile desenvolvida com React Native para calcul
 
 ---
 
-### `🧩 Componentes`
+## `🧩 Componentes`
 
 `App.js`
 Responsável por renderizar os principais componentes da aplicação:
