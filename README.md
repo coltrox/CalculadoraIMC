@@ -59,7 +59,7 @@ Calcula e exibe o intervalo de peso considerado ideal com base na altura informa
 ## 🚀 Como executar
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/CalculadoraIMC.git
+git clone https://github.com/coltrox/CalculadoraIMC.git
 ```
 
 2. Acesse o diretório do projeto:
