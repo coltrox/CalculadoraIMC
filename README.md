@@ -13,7 +13,7 @@ Este projeto é uma aplicação mobile desenvolvida com React Native para calcul
 
 ---
 
- #🧩 Componentes
+###🧩 Componentes
 
 `App.js`
 Responsável por renderizar os principais componentes da aplicação:
