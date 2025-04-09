@@ -79,5 +79,5 @@ npx expo start --tunnel
 
 
 #  Autor
-Projeto desenvolvido por [Pedro Coltro].
+Projeto desenvolvido por Pedro Henrique Soares da Costa Coltro.
 
