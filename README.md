@@ -74,7 +74,7 @@ npm install
 
 4. Execute o projeto:
 ```bash
-npm expo start --tunnel
+npx expo start --tunnel
 ```
 
 
