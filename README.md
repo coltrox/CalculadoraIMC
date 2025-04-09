@@ -69,16 +69,12 @@ cd CalculadoraIMC
 
 3. Instale as dependências:
 ```bash
-yarn install
-# ou
 npm install
 ```
 
 4. Execute o projeto:
 ```bash
-yarn start
-# ou
-npm start
+npm expo start --tunnel
 ```
 
 
